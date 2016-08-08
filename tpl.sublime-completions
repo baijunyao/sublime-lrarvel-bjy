@@ -1,0 +1,10 @@
+{
+	"scope": "text.html - source - meta.tag, punctuation.definition.tag.begin",
+
+	"completions":
+	[
+		{ "trigger": "bootstrap", "contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\"/>\n	<title>${1:titleName} - 白俊遥博客</title>\n	<bootstrapcss />\n</head>\n<body>\n$2\n\n<bootstrapjs />\n</body>\n</html>" },
+		{ "trigger": "frozenui", "contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\"/>\n	<title>${1:titleName} - 白俊遥博客</title>\n	<frozenuicss />\n</head>\n<body>\n$2\n\n<frozenuijs />\n</body>\n</html>" },
+		{ "trigger": "sui", "contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\"/>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n	<title>${1:titleName} - 白俊遥博客</title>\n    <meta name=\"viewport\" content=\"initial-scale=1, maximum-scale=1\">\n    <link rel=\"shortcut icon\" href=\"/favicon.ico\">\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\">\n    <suicss />\n</head>\n<body>\n$2\n\n<suijs />\n</body>\n</html>" }
+	]
+}

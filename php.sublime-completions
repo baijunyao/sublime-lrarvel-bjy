@@ -4,8 +4,8 @@
     "completions":
     [
         // 路由
-        { "trigger": "routeg", "contents": "Route::get('${1:url}',function(){\n    return view('${2:view_name}');\n});$0" },
-        { "trigger": "routep", "contents": "Route::get('${1:url}',function(){\n    return view('${2:view_name}');\n});$0" },
+        { "trigger": "route::get", "contents": "Route::get('${1:url}',function(){\n    return view('${2:view_name}');\n});$0" },
+        { "trigger": "route::post", "contents": "Route::post('${1:url}',function(){\n    return view('${2:view_name}');\n});$0" },
         { "trigger": "view", "contents": "return view('${1:view}');$0" }
     ]
 }
